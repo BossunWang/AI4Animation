@@ -96,7 +96,7 @@ class ExpertLinear(torch.nn.Module):
 if __name__ == '__main__':
 
     load = "Data"
-    gating_indices = torch.tensor([(429 + i) for i in range(130)])
+    gating_indices = torch.tensor([(429 + i) for i in range(130)]) # indices of phase space
     main_indices = torch.tensor([(0 + i) for i in range(429)])
 
     save = "./Training"
